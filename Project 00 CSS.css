@@ -1,0 +1,33 @@
+<style>
+    h1 {
+        color: red;
+        margin: 0px;
+        background: green
+    }
+
+    .selected {
+        background: blue
+    }
+
+    .favorites {
+        text-decoration: double;
+    }
+
+    .menu {
+        background: rgb(110, 235, 233)
+        }
+    
+    .body {
+        margin: 0px;
+    }
+
+    li:hover {
+        background: red;
+    }
+
+    li {
+        background: gray;
+        display: inline-block;
+        width: 20%;
+    }
+    </style>
