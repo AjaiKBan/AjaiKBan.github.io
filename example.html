@@ -1,8 +1,48 @@
 <html>
 <head>
+    <style>
+    h1 {
+        color: red;
+        margin: 0px;
+        background: green
+    }
+
+    .selected {
+        background: blue
+    }
+
+    .favorites {
+        text-decoration: double;
+    }
+
+    .menu {
+        background: rgb(110, 235, 233)
+        }
+    
+    .body {
+        margin: 0px;
+    }
+
+    li:hover {
+        background: red;
+    }
+
+    li {
+        background: gray;
+        display: inline-block;
+        width: 20%;
+    }
+    </style>
 </head>
 <body>
     <h1>My books webpage</h1>
+    <ul class="menu">
+        <li>Where the Red Fern Grows</li>
+        <li>To Kill a Mockingbird</li>
+        <li>Crime and Punishment</li>
+        <li>Harry Potter</li>
+    </ul>
     <p>This is a paragraph about books</p>
+    <p>This is a paragraph about the best-selling book <span class="selected">To Kill a Mockingbird</p>
 </body>
 </html>
