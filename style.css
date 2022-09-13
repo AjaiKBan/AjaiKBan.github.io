@@ -1,18 +1,23 @@
+a {
+    color:blue;
+}
     h1 {
         color: rgb(255, 230, 0);
         margin: 0px;
         background: rgb(6, 22, 6)
     }
 
-    li:hover {
-        background: red;
-    }
 
     li {
         background: rgb(235, 133, 16);
         display: inline-block;
         width: 20%;
     }
+
+    li:hover {
+        background: red;
+    }
+
  
     .center {
         text-align: center;
