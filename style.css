@@ -4,18 +4,6 @@
         background: rgb(6, 22, 6)
     }
 
-    .selected {
-        background: blue
-    }
-
-    .favorites {
-        text-decoration: double;
-    }
-    
-    .body {
-        margin: 0px;
-    }
-
     li:hover {
         background: red;
     }
@@ -28,4 +16,18 @@
  
     .center {
         text-align: center;
+    }
+
+    .bold {
+        font-weight:bold
+    }
+
+    @media only screen and (max-width: 400px) {
+        head {
+          font-weight: bold;
+        }
+    }
+
+    #directormenu{
+        background-color: aqua;
     }
