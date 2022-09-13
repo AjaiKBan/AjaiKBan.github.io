@@ -1,8 +1,7 @@
-<style>
     h1 {
-        color: red;
+        color: rgb(255, 230, 0);
         margin: 0px;
-        background: green
+        background: rgb(6, 22, 6)
     }
 
     .selected {
@@ -12,10 +11,6 @@
     .favorites {
         text-decoration: double;
     }
-
-    .menu {
-        background: rgb(110, 235, 233)
-        }
     
     .body {
         margin: 0px;
@@ -26,8 +21,11 @@
     }
 
     li {
-        background: gray;
+        background: rgb(235, 133, 16);
         display: inline-block;
         width: 20%;
     }
-    </style>
+ 
+    .center {
+        text-align: center;
+    }
